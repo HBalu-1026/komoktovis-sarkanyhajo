@@ -18,16 +18,16 @@ body{
 h1,h2{
 	color: indigo;
 	text-shadow: 1px 1px white;
+  font-variant: small-caps;
 }
 
 p{
-  margin: 35px;
   text-align: justify;
 }
 
 .kepkeret {
   max-width: 375px;
-    width: auto;
+  width: auto;
   float: right;
   text-align: center;
   font-size: 75%;
@@ -37,8 +37,8 @@ p{
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 10px 10px 10px gray;  
-    border: 2px solid darkblue;
-    font-style: italic;
+  border: 2px solid darkblue;
+  font-style: italic;
 }
 
 .kepkeret img{
@@ -48,11 +48,18 @@ p{
   left: -5px;
 }
 
-
 a{
   text-decoration: none;
     font-weight: bold;
 }
 ul{
     margin-bottom: 25px;
+}
+
+li{
+  margin-bottom: 25px;
+}
+
+#szoveg{
+  text-indent: 1cm;
 }
